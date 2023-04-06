@@ -141,3 +141,9 @@ body {
     order: 3;
     flex-grow: 0;
 }
+.container {
+    width: 1158px;
+}
+.section {
+    padding: auto;
+}
