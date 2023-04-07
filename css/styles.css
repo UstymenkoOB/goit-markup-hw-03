@@ -51,7 +51,7 @@ body {
 }
 .link:hover,
 .link:focus {
-    color: #404bbf;
+    color: var(--button-active);
 } 
 .list {
     list-style: none;
@@ -77,15 +77,16 @@ body {
     background-color: var(--brand-color);
     /*flex-direction: column;*/
     text-align: center;
-    padding-top: 188px;
+    color: var(--studio-color);
 }
 .head-h {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--light-color);
     margin-bottom: 48px;
+    padding-top: 68px;
 }
 .head-but {
     background-color: var(--iris-color);
@@ -94,7 +95,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--light-color);
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -103,7 +104,7 @@ body {
     align-items: flex-start;*/
     padding: 16px 32px;
     gap: 10px;
-    margin-bottom: 188px;
+    margin-bottom: 68px;
     /*position: absolute;
     width: 179px;
     height: 56px;
@@ -133,6 +134,12 @@ body {
     padding-left: 16px;
     padding-bottom: 32px;
 }
+.section-pp {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    padding-left: 16px;
+}
 .section-hh {
     font-size: 36px;
     line-height: 1.11;
@@ -142,23 +149,25 @@ body {
     color: var(--brand-color);
 }
 .img-teh {
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--border-color);
 }
 .img-foto {
     margin-bottom: 32px;
 }
 .sect-back {
     background-color: var(--studio-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .li-back {
-    background-color: #ffffff;
+    background-color: var(--light-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
 }
 
 .studio-light {
-    color: #F4F4FD;
+    color: var(--studio-color);
     margin-bottom: 17.5px;
 }
 .button-text {
@@ -175,7 +184,7 @@ body {
 }
 .button-text:hover,
 .button-text:focus {
-    color:#ffffff;
+    color: var(--light-color);
     background-color: var(--button-active);
 }
 .portf-but {
@@ -187,14 +196,14 @@ body {
     width: 101px;
     height: 48px;
     /* CLOUD */
-    background: #F4F4FD;
+    background: var(--studio-color);
     /* CORNFLOWER */
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     /*flex: none;
     order: 3;
     flex-grow: 0;*/
-    margin-top: 96px;
+    /*margin-top: 96px;*/
     margin-bottom: 72px;
 }
 
@@ -202,18 +211,22 @@ body {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
     /*display: flex;*/
-    
 }
 .section {
-    padding: 0 15px;
-    margin-bottom: 120px;
     /*justify-content: space-evenly;*/
-    
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section1 {
+    /*justify-content: space-evenly;*/
+    padding-top: 0px;
+    padding-bottom: 120px;
 }
 .header {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid var(--border-color);
     /*flex-direction: row;*/
     /*align-items: flex-start;*/
     /*vertical-align: middle;*/
@@ -226,9 +239,15 @@ body {
     display: block;
 }
 .portf-kart {
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--border-color);
 }
 .list li {
     margin-right: 24px;
     
+}
+.foot-pad {
+    align-items: left;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
