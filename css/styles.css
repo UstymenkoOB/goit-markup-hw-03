@@ -172,6 +172,7 @@ body {
 }
 .img-foto {
     margin-bottom: 32px;
+    margin-left: -1px;
 }
 .sect-back {
     background-color: var(--studio-color);
@@ -247,7 +248,8 @@ body {
 }
 
 .portf-kart {
-    border: 0px solid var(--border-color);
+    width: 360px;
+    border: 1px solid var(--border-color);
     margin-bottom: 48px;
 }
 
