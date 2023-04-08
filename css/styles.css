@@ -173,6 +173,7 @@ body {
 .img-foto {
     margin-bottom: 32px;
     margin-left: -1px;
+    margin-top: -1px;
 }
 .sect-back {
     background-color: var(--studio-color);
